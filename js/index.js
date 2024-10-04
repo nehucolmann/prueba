@@ -28,3 +28,30 @@
 // else{
 //     alert("Afuera peque")
 // }
+//function saludar() {
+ //   console.log("hola pedrin");
+//}
+//saludar()
+//function saludar(nombre){
+//console.log("hola " + nombre)
+//}
+//let nombredeusuario = prompt("Coloque su Nombre")
+
+//function sumardosnumeros(Numero1 , Numero2){
+  //  return Numero1 + Numero2
+//}
+
+//let restardosnumeros = (X,Y) =>{
+  //  let total = X - Y
+    //console.log(total)
+//}
+//restardosnumeros(10,5)
+//console.log(sumardosnumeros(10,5))
+
+//function saludar(nombre) {
+  //  return `Hola ${nombre} como estas?`
+//
+//saludar(nombredeusuario)
+const preciototal = (precio, impuesto) => {
+    let total = precio +(precio * impuesto)
+}
