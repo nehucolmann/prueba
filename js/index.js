@@ -52,6 +52,29 @@
   //  return `Hola ${nombre} como estas?`
 //
 //saludar(nombredeusuario)
-const preciototal = (precio, impuesto) => {
-    let total = precio +(precio * impuesto)
+//const preciototal = (precio, impuesto) => {
+  //  let total = precio +(precio * impuesto)
+//}
+let contador = 1; //Inicio de variable contador = 1
+let infinito = true;
+
+while (contador <= 5){ // Condición -> contador menor o igual a 5
+console.log("Hola");
+contador++; // Incrementa en 1 -> contador = contador + 1
 }
+
+let usuario = "gus"
+let contra = "123"
+let intentos = 0;
+do {
+let usuarioPrompt = prompt("Ingrese su usuario");
+let contraPrompt = prompt("Ingrese su contraseña")
+
+if(usuarioPrompt == usuario && contraPrompt == contra) {
+alert("adelante")
+intentos = 4;
+} else {
+    intentos++;
+    alert("ERROR vas " + intentos + " Intentos (EL MAXIMO ES 3)")
+}
+} while (intentos <= 3);
