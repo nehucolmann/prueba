@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       const productos = ["pro1", "pro2", "pro3", "pro4", "pro5"]
+       
+
+       //mas selectivo
+       //for(let i = 0 ; i < 5 ; i + 2) {
+         //   console.log("hola")
+        //}
+        //todo
+        for(let producto of productos) {
+           let h2 = document.createElement("h2")
+           h2.innerHTML = producto;
+           document.body.appendChild(h2)
+        }
+    </script>
+</body>
+</html>
